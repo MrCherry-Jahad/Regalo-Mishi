@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(../images/maxresdefault.jpg) no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #ff4d4d;
+}
+
+p {
+    color: #666;
+}
+
+.heart {
+    color: #ff4d4d;
+    font-size: 50px;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
